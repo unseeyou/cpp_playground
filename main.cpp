@@ -1,1 +1,8 @@
-std::cout<<"hello world"<<std::endl;
+#include <iostream>
+#include <string>
+
+int main()
+{
+    std::cout<<"Hello world"<<std::endl;
+    return 0; 
+}
