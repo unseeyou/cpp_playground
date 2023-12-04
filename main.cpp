@@ -1,8 +1,11 @@
 #include <iostream>
-using namespace std;
+
+void printf(std::string text){
+    std::cout << text << std::endl;
+}
 
 int main()
 {
-    cout << "Hello world" << endl;
+    printf("Hello World");
     return 0; 
 }
